@@ -1,0 +1,12 @@
+# Ignoriere die virtuelle Umgebung im Ordner rlhf_f
+env/
+runs/
+videos/
+myenv/
+
+
+# Ignoriere Videos im Ordner cleanrl/static
+cleanrl/static/*.mp4
+cleanrl/static/*.avi
+cleanrl/static/*.mov
+cleanrl/static/*.mkv
