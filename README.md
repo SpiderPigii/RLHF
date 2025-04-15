@@ -31,23 +31,24 @@ For more details, refer to the [CleanRL JMLR paper](https://www.jmlr.org/papers/
 Ensure you have Python 3.7.1 to 3.10 installed.
 
 
-# Set up a virtual environment with Python 3.9
+### Set up a virtual environment with Python 3.9
 ```bash
 python3.9 -m venv env
 ```
+#### To activate on Linux:
 ```bash
 source env/bin/activate
 ```
-# On Windows: 
+#### To activate on Windows: 
 ```bash
 .\env\Scripts\Activate
 ```
-# Verify Python version
+#### Verify Python version
 ```bash
 python --version
 ```
 
-# Install dependencies
+### Install dependencies
 ```bash
 pip install -r requirements/requirements-mujoco.txt
 ```
