@@ -30,19 +30,27 @@ For more details, refer to the [CleanRL JMLR paper](https://www.jmlr.org/papers/
 ### Prerequisites
 Ensure you have Python 3.7.1 to 3.10 installed.
 
-### Run in the Web-based Application
-To run the RLHF framework in a web-based application:
-1. Navigate to the `rlhf_f` folder.
-2. Execute the following commands:
 
-```bash
 # Set up a virtual environment with Python 3.9
+```bash
 python3.9 -m venv env
-source env/bin/activate  # On Windows: ".\env\Scripts\Activate"
-python --version         # Verify Python version
+```
+```bash
+source env/bin/activate
+```
+# On Windows: 
+```bash
+.\env\Scripts\Activate
+```
+# Verify Python version
+```bash
+python --version
+```
 
 # Install dependencies
-pip install -r requirements/requirements-rlhf.txt
+```bash
+pip install -r requirements/requirements-mujoco.txt
+```
 
 ---
 
@@ -52,7 +60,7 @@ To run the RLHF code directly in the terminal without Human Feedback:
 2. Run one of the following commands:
 
 ```bash
-python cleanrl/ppo_rlhf.py --env-id HalfCheetah-v4  # Optional: --capture-video
+python cleanrl/ppo_continuous_action.py --env-id HalfCheetah-v4
 ```
 
 To monitor training progress: 
